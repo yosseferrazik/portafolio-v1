@@ -58,7 +58,6 @@ footer {
   background-color: transparent;
   font-size: 20px;
   text-align: center;
-  position: fixed;
   bottom: 0px;
   width: 100%;
   padding-top: 20px;
@@ -132,11 +131,13 @@ img {
   float: left;
   color: black;
   text-align: center;
-  padding: 12px;
+  padding: 18px;
   text-decoration: none;
   font-size: 18px;
   line-height: 25px;
-  border-radius: 4px;
+  border-radius: 10px;
+  background-color: white;
+  opacity: 0.7;
 }
 
 .header a.logo {
@@ -191,6 +192,23 @@ img {
   }
 }
 
+/*  TITLE  */
+.title {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 200px;
+  background-color: transparent;
+}
+.title-text {
+  height: 200px;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  padding: 50px;
+  border-radius: 25px;
+  opacity: 0.7;
+}
+
 /*  HOME  */
 
 .home {
@@ -219,6 +237,9 @@ img {
   .home-text {
     width: 100%;
   }
+  .home-text {
+    padding: 15px;
+  }
 }
 
 /*  ABOUT  */
@@ -227,11 +248,12 @@ img {
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 200px;
+  background-color: transparent;
 }
 
 .about-text {
   height: 500px;
-  width: 55%;
+  width: 70%;
   text-align: left;
   background-color: white;
   padding: 50px;
@@ -239,17 +261,37 @@ img {
   opacity: 0.7;
 }
 
-.about-img {
-  height: 700px;
-  width: 600px;
-}
-
 @media screen and (max-width: 875px) {
   .about-text {
     width: 100%;
-    height: 250px;
-  }
-  .about {
-    padding-bottom: 100px;
+    height: 400px;
+    padding: 15px;
   }
 }
+/*  LENGUAGE  */
+
+.lenguage {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 200px;
+  background-color: transparent;
+}
+
+.lenguage-text {
+  height: 360px;
+  width: 70%;
+  text-align: left;
+  background-color: white;
+  padding: 50px;
+  border-radius: 25px;
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 875px) {
+  .lenguage-text {
+    width: 100%;
+    height: 250px;
+    padding: 15px;
+  }
+}
+
