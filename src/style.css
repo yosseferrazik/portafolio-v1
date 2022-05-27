@@ -2,7 +2,6 @@
 
 html,
 body {
-  scroll-behavior: smooth;
   margin: 0;
   background-color: white;
   color: #333;
@@ -59,6 +58,7 @@ footer {
   background-color: transparent;
   font-size: 20px;
   text-align: center;
+  position: fixed;
   bottom: 0px;
   width: 100%;
   padding-top: 20px;
@@ -151,9 +151,24 @@ img {
   cursor: help;
 }
 
+.header a:hover {
+  background-color: #ddd;
+  opacity: 0.5;
+  color: black;
+}
 
+.header a.active {
+  background-color: #ffa1a1;
+  color: white;
+}
 
+.header-right {
+  float: right;
+}
 
+.header-right a {
+  margin: 0px 10px 0px 10px;
+}
 @media screen and (max-width: 875px) {
   .header {
     padding: 20px 10px;
@@ -164,7 +179,9 @@ img {
     text-align: center;
     margin-bottom: 5px;
   }
-
+  .header-right {
+    float: none;
+  }
   .header a.logo {
     font-size: 35px;
     font-weight: bold;
@@ -275,6 +292,32 @@ img {
   .lenguage-text {
     width: 100%;
     height: 250px;
+    padding: 15px;
+  }
+}
+/*  PROJECTS  */
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 200px;
+  background-color: transparent;
+}
+.card {
+  height: 500px;
+  width: 30%;
+  text-align: left;
+  background-color: white;
+  padding: 50px;
+  margin: auto;
+  border-radius: 25px;
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 875px) {
+  .card {
+    width: 100%;
+    height: 400px;
     padding: 15px;
   }
 }
