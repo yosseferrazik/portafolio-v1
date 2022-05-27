@@ -58,7 +58,7 @@ footer {
   background-color: transparent;
   font-size: 20px;
   text-align: center;
-  position: fixed;
+  position: relative;
   bottom: 0px;
   width: 100%;
   padding-top: 20px;
@@ -269,5 +269,3 @@ img {
     padding: 15px;
   }
 }
-
-
