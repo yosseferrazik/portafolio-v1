@@ -56,7 +56,7 @@ h1 {
 
 footer {
   background-color: transparent;
-  font-size: 30px;
+  font-size: 7vw;
   text-align: center;
   position: relative;
   bottom: 0px;
@@ -119,77 +119,27 @@ img {
 /* HEADER */
 
 .header {
-  overflow: hidden;
-  background-color: #f1f1f1;
-  padding: 20px 100px 10px 100px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 5vw;
+  padding-top: 10vh;
   background-color: transparent;
 }
 
 .header a {
-  float: left;
-  color: black;
+  font-size: 5vw;
+  font-weight: bold;
   text-align: center;
-  padding: 18px;
-  text-decoration: none;
-  font-size: 18px;
-  line-height: 25px;
-  border-radius: 10px;
+}
+
+.logo {
   background-color: white;
+  padding: 4vw;
+  border-radius: 25px;
   opacity: 0.7;
+  margin: auto;
+  width: 50%;
 }
-
-.header a.logo {
-  font-size: 50px;
-  font-weight: bold;
-}
-.header a.logo:hover {
-  font-size: 50px;
-  font-weight: bold;
-  cursor: help;
-}
-
-.header a:hover {
-  background-color: #ddd;
-  opacity: 0.5;
-  color: black;
-}
-
-.header a.active {
-  background-color: #ffa1a1;
-  color: white;
-}
-
-.header-right {
-  float: right;
-}
-
-.header-right a {
-  margin: 0px 10px 0px 10px;
-}
-@media screen and (max-width: 620px) {
-  .header {
-    padding: 20px 10px;
-  }
-  .header a {
-    float: none;
-    display: block;
-    text-align: center;
-    margin-bottom: 5px;
-  }
-  .header-right {
-    float: none;
-  }
-  .header a.logo {
-    font-size: 35px;
-    font-weight: bold;
-  }
-  .header a.logo:hover {
-    font-size: 35px;
-    font-weight: bold;
-    cursor: help;
-  }
-}
-
 /*  HOME  */
 
 .home {
@@ -207,6 +157,7 @@ img {
   padding: 50px;
   border-radius: 25px;
   opacity: 0.7;
+  margin: auto;
 }
 
 .home-icons {
@@ -239,6 +190,7 @@ img {
   padding: 60px;
   border-radius: 25px;
   opacity: 0.7;
+  margin: auto;
 }
 
 @media screen and (max-width: 620px) {
@@ -265,6 +217,7 @@ img {
   padding: 50px;
   border-radius: 25px;
   opacity: 0.7;
+  margin: auto;
 }
 
 @media screen and (max-width: 620px) {
