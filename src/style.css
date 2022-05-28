@@ -195,7 +195,7 @@ img {
 .home {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 200px;
+  padding-bottom: 10vw;
   background-color: transparent;
 }
 
@@ -227,7 +227,7 @@ img {
 .about {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 200px;
+  padding-bottom: 10vh;
   background-color: transparent;
 }
 
@@ -253,7 +253,7 @@ img {
 .lenguage {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 200px;
+  padding-bottom: 10vh;
   background-color: transparent;
 }
 
@@ -300,4 +300,3 @@ img {
     padding: 15px;
   }
 }
-
