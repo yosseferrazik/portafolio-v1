@@ -137,10 +137,9 @@ img {
 }
 
 .logo {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.5);
   padding: 4vw;
   border-radius: 25px;
-  opacity: 0.7;
   margin: auto;
   width: 50%;
 }
@@ -157,11 +156,10 @@ img {
   height: auto;
   width: 65%;
   text-align: left;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.5);
   padding: 50px;
   border-radius: 25px;
-  opacity: 0.7;
-  margin: auto;
+   margin: auto;
 }
 
 .home-icons {
@@ -190,10 +188,9 @@ img {
   height: auto;
   width: 65%;
   text-align: left;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.5);
   padding: 60px;
   border-radius: 25px;
-  opacity: 0.7;
   margin: auto;
 }
 
@@ -217,10 +214,9 @@ img {
   height: auto;
   width: 65%;
   text-align: left;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.5);
   padding: 50px;
   border-radius: 25px;
-  opacity: 0.7;
   margin: auto;
 }
 
@@ -243,12 +239,11 @@ img {
   height: 500px;
   width: 30%;
   text-align: left;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.5);
   padding: 50px;
   margin: auto;
   border-radius: 25px;
-  opacity: 0.7;
-}
+ }
 
 @media screen and (max-width: 620px) {
   .card {
